@@ -1,0 +1,120 @@
+/*Reset básico*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: #0f0f0f;
+    background-color: rgb(218, 218, 218);
+
+}
+/*header*/
+
+.apresentacao {
+
+    background-color:ffffff;
+    text-align: center;
+    box-shadow: 12px 1px 15px black;
+
+}
+    h1{
+
+        padding: 10px;
+        text-transform: uppercase;
+
+
+    }
+
+    h4{
+        padding: 10px;
+        color: blue;
+
+    }
+    /*main*/
+
+    #principal{
+        padding: 20px;
+
+
+    }
+
+    .vaga{
+        background-color:white;
+        padding: 20px;
+        border-radius: 12px;
+        margin: 20px;
+    }
+    
+    .descricao{
+        text-align: center;
+        margin: 20px;
+
+    }
+
+    .imagem{
+        width: 100px;
+        height: auto;
+    }
+    h2{
+        text-transform: uppercase;
+        color: #656565;
+        font-size: 22px;
+    }
+    p{
+        margin: 20px;
+
+    }
+    .formulario{
+        margin: 0 auto;
+        width: 400px;
+        
+    }
+    h3{
+        margin: 15px;
+        color: black;
+    }
+
+    label{
+        margin: 15px;
+
+    }
+    input{
+        width: 100%;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 5px;
+        border: 1px solid #cccccc;
+    }
+    button{
+        background-color: blue;
+        color: white;
+        border: none;
+        margin: 15px;
+        padding: 10px;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: .3s ease;
+    }
+    button:hover{
+        background-color: red;
+        transform: scale(1.2);
+    }
+    /*footer*/
+    footer{
+        background-color: black;
+        color:white;
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
